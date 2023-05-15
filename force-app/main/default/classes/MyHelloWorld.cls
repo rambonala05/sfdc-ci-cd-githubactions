@@ -5,6 +5,6 @@ public class MyHelloWorld {
    }
    System.debug('HelloWorld Updated');
    System.debug('Test coverage Updated');
-   System.debug('Re-run test class');
+   System.debug('Re-run test class modified');
  }
 }
