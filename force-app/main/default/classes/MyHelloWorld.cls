@@ -4,5 +4,6 @@ public class MyHelloWorld {
      b.Price__c *= 0.9;
    }
    System.debug('HelloWorld Updated');
+   System.debug('Test coverage Updated');
  }
 }
