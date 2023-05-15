@@ -3,5 +3,6 @@ public class MyHelloWorld {
    for (Book__c book :books){
      book.Price__c *= 0.9;
    }
+   System.debug('HelloWorld Updated');
  }
 }
