@@ -1,7 +1,10 @@
 public class MyHelloWorld {
  public static void applyDiscount(Book__c[] books) {
-   for (Book__c book :books){
-     book.Price__c *= 0.9;
+   for (Book__c b :books){
+     b.Price__c *= 0.9;
    }
+   System.debug('HelloWorld Updated');
+   System.debug('Test coverage Updated');
+   System.debug('Re-run test class modified');
  }
 }
